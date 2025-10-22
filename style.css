@@ -1,0 +1,36 @@
+:root {
+    --cinza: #463f3aff;
+    --cinza-escuro: #8a817cff;
+    --cinza-claro: #bcb8b1ff;
+    --branco: #f4f3eeff;
+}
+
+main{
+     margin: 20px 0;
+     text-align: center;
+     max-width: 90%;
+    }
+
+    button{
+        background-color: (--cinza);
+        font-size: 22PX;
+        padding: 4px;
+        border-radius: 10px;
+        margin: 5px;
+        color: rgb(0, 0, 0);
+        box-shadow: 2px 2px 5px black;
+
+    }
+
+button:hover{
+    background-color: var(--cinza-escuro);
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.passo{
+    display: none;
+}
+.passo ativo{
+    display: block;
+}
